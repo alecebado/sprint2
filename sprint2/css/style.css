@@ -1,0 +1,388 @@
+body{
+  background-image: url(../img/bg-2.png);
+}
+
+.contenedor-preg{
+  text-align: center;
+}
+.titulo-preg{
+  text-align: center;
+}
+
+
+/* para pantalla menor de 1223px */
+@media only screen and (max-width:1223px){
+  .contenedor-index{
+    overflow: hidden;
+    max-width: 768px;
+
+    box-sizing: border-box;
+    margin: 1px auto;
+
+  }
+
+  .header-index{
+
+    overflow: hidden;
+    max-height: 5%;
+    max-width: 100%;
+    background-color: white;
+    margin:1px auto 5px;
+  }
+  .header-index img{
+    float:left;
+    padding:3px 0px;
+  }
+  .header-index .menuheader{
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+  .header-index .logingheader{
+    float:right;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+
+  .header-index a{
+    text-decoration-line: none;
+    color: black;
+    margin:5px;
+
+  }
+
+  #central-index{
+    /* background-color: red; */
+    margin: 20px auto;
+
+    box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-wrap:wrap;
+  }
+
+  #central-index .main-index {
+    /* background-color: white; */
+    /* float: left; */
+    overflow: hidden;
+
+  }
+
+  #central-index .main-index .section-articulos article{
+    /* margin:10px 5px; */
+    float:left;
+    width: 380px;
+    background-color: white;
+  }
+
+  #central-index .main-index .section-articulos img{
+  width: 100%;
+  }
+
+  #central-index .main-index .section-articulos button{
+    background-color: red;
+    font-size: 14px;
+    color:white;
+    width: 100px;
+    height: 40px;
+  }
+
+  #columna-derecha{
+    width: 320px;
+    margin-left: 20px;
+    /* background-color: green; */
+
+    /* overflow: hidden; */
+  }
+  #columna-derecha .tutorial{
+    width: 100%;
+    background-color: white;
+    float: left;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 5px;
+  }
+
+  #columna-derecha .nav-derecha{
+    width: 100%;
+     /* background-color: white; */
+    float: left;
+    overflow: hidden;
+  }
+  #columna-derecha .nav-derecha .aside{
+    margin-bottom: 3px;
+     background-color: white;
+    width: 100%;
+  }
+
+  #columna-derecha .titulo-reparacion{
+    float:right;
+    width:200px;
+    /* background-color: yellow; */
+  }
+
+  #columna-derecha .publicidad .titulo-publicidad{
+    width: 100%;
+    background-color: white;
+    float: left;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  #columna-derecha .publicidad .caja-publicidad{
+    width: 100%;
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+
+  .central-index form{
+    width: 350px;
+
+    margin:10px auto;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 60px;
+
+  }
+  .central-index h1{
+    text-align: center;
+  }
+  #username{
+
+    width: 99%;
+  }
+  
+  #email{
+    width: 99%;
+  } 
+  #password{
+    width: 99%;
+  }
+  #name{
+  width: 99%;
+  }
+  
+  #repassword{
+  width: 99%;
+  }
+
+  #recordar{
+  margin-left: 250px;
+  }
+  #botonlogin{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .cont_Prin_Contacto{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  #central-index .main-index .section-articulos{
+
+    /* background-color: yellow; */
+       /* width: 800px;  */
+    overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+  }
+}
+
+/* Para pantalla mayor de 1224px */
+@media only screen and (min-width:1224px) {
+  .contenedor-index{
+    overflow: hidden;
+    max-width: 1140px;
+
+    box-sizing: border-box;
+    margin: 1px auto;
+
+  }
+
+  .header-index{
+
+    overflow: hidden;
+    max-height: 5%;
+    max-width: 100%;
+    background-color: white;
+    margin:1px auto 5px;
+  }
+  .header-index img{
+    float:left;
+    padding:3px 0px;
+  }
+  .header-index .menuheader{
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+  .header-index .logingheader{
+    float:right;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+
+  .header-index a{
+    text-decoration-line: none;
+    color: black;
+    margin:5px;
+
+  }
+
+  #central-index{
+    /* background-color: red; */
+    margin: 20px auto;
+
+    box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-wrap:wrap;
+  }
+
+  #central-index .main-index {
+    /* background-color: white; */
+    /* float: left; */
+    overflow: hidden;
+
+  }
+
+  #central-index .main-index .section-articulos article{
+    /* margin:10px 5px; */
+    float:left;
+    width: 380px;
+    background-color: white;
+  }
+
+  #central-index .main-index .section-articulos img{
+  width: 100%;
+  }
+
+  #central-index .main-index .section-articulos button{
+    background-color: red;
+    font-size: 14px;
+    color:white;
+    width: 100px;
+    height: 40px;
+  }
+
+  #columna-derecha{
+    width: 320px;
+    margin-left: 20px;
+    /* background-color: green; */
+
+    /* overflow: hidden; */
+  }
+  #columna-derecha .tutorial{
+    width: 100%;
+    background-color: white;
+    float: left;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 5px;
+  }
+
+  #columna-derecha .nav-derecha{
+    width: 100%;
+     /* background-color: white; */
+    float: left;
+    overflow: hidden;
+  }
+  #columna-derecha .nav-derecha .aside{
+    margin-bottom: 3px;
+     background-color: white;
+    width: 100%;
+  }
+
+  #columna-derecha .titulo-reparacion{
+    float:right;
+    width:200px;
+    /* background-color: yellow; */
+  }
+
+  #columna-derecha .publicidad .titulo-publicidad{
+    width: 100%;
+    background-color: white;
+    float: left;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  #columna-derecha .publicidad .caja-publicidad{
+    width: 100%;
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+
+  .central-index form{
+    width: 350px;
+
+    margin:10px auto;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 60px;
+
+  }
+  .central-index h1{
+    text-align: center;
+  }
+  #email{
+    width: 99%;
+  }
+  #password{
+    width: 99%;
+  }
+
+  #repassword{
+    width: 99%;
+  }
+  #name{
+  width: 99%;
+  }
+  #recordar{
+  margin-left: 250px;
+  }
+
+  #username{
+
+    width: 99%;
+  }
+  
+  #botonlogin{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .cont_Prin_Contacto{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  #central-index .main-index .section-articulos{
+
+    /* background-color: yellow; */
+       width: 800px;
+    overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+  }
+}
